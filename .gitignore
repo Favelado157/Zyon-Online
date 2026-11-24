@@ -1,0 +1,16 @@
+node_modules/
+.next/
+dist/
+coverage/
+.data/
+.env*
+!.env.example
+logs/
+*.log
+*.pem
+*.key
+/cdn/
+/cdn-seasonal/
+/.roadmap/decompiled/
+*.rar
+*.zip
