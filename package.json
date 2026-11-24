@@ -1,0 +1,29 @@
+{
+  "name": "legend-online-ultra",
+  "private": true,
+  "type": "module",
+  "workspaces": [
+    "apps/*",
+    "packages/*"
+  ],
+  "engines": {
+    "node": ">=24"
+  },
+  "scripts": {
+    "typecheck": "tsc -p tsconfig.json",
+    "dev": "npm -w @lou/server run dev",
+    "dev:portal": "npm --prefix apps/portal run dev",
+    "start": "npm -w @lou/server run start",
+    "test": "npm -w @lou/server run test",
+    "db:up": "docker compose up -d db",
+    "db:migrate": "npm -w @lou/db run migrate",
+    "db:seed": "npm -w @lou/db run seed",
+    "db:reset": "npm -w @lou/db run reset",
+    "db:status": "npm -w @lou/db run status"
+  },
+  "devDependencies": {
+    "@types/node": "^24.0.0",
+    "@types/ws": "^8.18.2",
+    "typescript": "^5.9.0"
+  }
+}

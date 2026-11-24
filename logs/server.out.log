@@ -1,0 +1,74 @@
+[2026-11-21 10:38:10.784 -0400] [32mINFO[39m: [36mServer listening at http://127.0.0.1:8080[39m
+[2026-11-21 10:38:10.784 -0400] [32mINFO[39m: [36mServer listening at http://192.168.1.190:8080[39m
+[2026-11-21 10:38:10.784 -0400] [32mINFO[39m: [36mServer listening at http://172.20.240.1:8080[39m
+[2026-11-21 10:38:10.784 -0400] [32mINFO[39m: [36mServer listening at http://172.18.0.1:8080[39m
+[2026-11-21 10:38:10.788 -0400] [32mINFO[39m: [36msocket do jogo ouvindo (TCP, WebSocket /socket e policy)[39m [90m{"mod":"game","port":9201}[39m
+[2026-11-21 10:40:11.890 -0400] [32mINFO[39m: [36mincoming request[39m [90m{"reqId":"req-1","req":{"method":"GET","url":"/api/v1/shop/highlights"}}[39m
+[2026-11-21 10:40:11.894 -0400] [32mINFO[39m: [36mrequest completed[39m [90m{"reqId":"req-1","res":{"statusCode":404},"responseTime":3.673900000008871}[39m
+[2026-11-21 10:40:11.894 -0400] [32mINFO[39m: [36mincoming request[39m [90m{"reqId":"req-2","req":{"method":"GET","url":"/api/v1/rankings"}}[39m
+[2026-11-21 10:40:11.895 -0400] [32mINFO[39m: [36mincoming request[39m [90m{"reqId":"req-3","req":{"method":"GET","url":"/api/v1/servers"}}[39m
+[2026-11-21 10:40:11.896 -0400] [32mINFO[39m: [36mincoming request[39m [90m{"reqId":"req-4","req":{"method":"GET","url":"/api/v1/events"}}[39m
+[2026-11-21 10:40:11.897 -0400] [32mINFO[39m: [36mincoming request[39m [90m{"reqId":"req-5","req":{"method":"GET","url":"/api/v1/news"}}[39m
+[2026-11-21 10:40:11.918 -0400] [32mINFO[39m: [36mrequest completed[39m [90m{"reqId":"req-3","res":{"statusCode":200},"responseTime":23.079200000007404}[39m
+[2026-11-21 10:40:11.930 -0400] [32mINFO[39m: [36mrequest completed[39m [90m{"reqId":"req-5","res":{"statusCode":200},"responseTime":32.91830000000482}[39m
+[2026-11-21 10:40:11.932 -0400] [32mINFO[39m: [36mrequest completed[39m [90m{"reqId":"req-2","res":{"statusCode":200},"responseTime":37.15329999999085}[39m
+[2026-11-21 10:40:11.941 -0400] [32mINFO[39m: [36mrequest completed[39m [90m{"reqId":"req-4","res":{"statusCode":200},"responseTime":44.657500000001164}[39m
+[2026-11-21 10:40:11.981 -0400] [32mINFO[39m: [36mincoming request[39m [90m{"reqId":"req-6","req":{"method":"GET","url":"/api/v1/news"}}[39m
+[2026-11-21 10:40:11.981 -0400] [32mINFO[39m: [36mincoming request[39m [90m{"reqId":"req-7","req":{"method":"GET","url":"/api/v1/rankings"}}[39m
+[2026-11-21 10:40:11.982 -0400] [32mINFO[39m: [36mincoming request[39m [90m{"reqId":"req-8","req":{"method":"GET","url":"/api/v1/events"}}[39m
+[2026-11-21 10:40:11.982 -0400] [32mINFO[39m: [36mincoming request[39m [90m{"reqId":"req-9","req":{"method":"GET","url":"/api/v1/servers"}}[39m
+[2026-11-21 10:40:11.983 -0400] [32mINFO[39m: [36mincoming request[39m [90m{"reqId":"req-a","req":{"method":"GET","url":"/api/v1/shop/highlights"}}[39m
+[2026-11-21 10:40:11.984 -0400] [32mINFO[39m: [36mrequest completed[39m [90m{"reqId":"req-a","res":{"statusCode":404},"responseTime":0.390400000003865}[39m
+[2026-11-21 10:40:11.985 -0400] [32mINFO[39m: [36mrequest completed[39m [90m{"reqId":"req-6","res":{"statusCode":200},"responseTime":4.22280000000319}[39m
+[2026-11-21 10:40:11.994 -0400] [32mINFO[39m: [36mrequest completed[39m [90m{"reqId":"req-8","res":{"statusCode":200},"responseTime":11.988200000007055}[39m
+[2026-11-21 10:40:11.994 -0400] [32mINFO[39m: [36mrequest completed[39m [90m{"reqId":"req-7","res":{"statusCode":200},"responseTime":12.718500000002678}[39m
+[2026-11-21 10:40:11.995 -0400] [32mINFO[39m: [36mrequest completed[39m [90m{"reqId":"req-9","res":{"statusCode":200},"responseTime":12.219799999991665}[39m
+[2026-11-21 10:40:12.218 -0400] [32mINFO[39m: [36mincoming request[39m [90m{"reqId":"req-b","req":{"method":"GET","url":"/api/v1/rankings"}}[39m
+[2026-11-21 10:40:12.218 -0400] [32mINFO[39m: [36mincoming request[39m [90m{"reqId":"req-c","req":{"method":"GET","url":"/api/v1/news"}}[39m
+[2026-11-21 10:40:12.218 -0400] [32mINFO[39m: [36mincoming request[39m [90m{"reqId":"req-d","req":{"method":"GET","url":"/api/v1/shop/highlights"}}[39m
+[2026-11-21 10:40:12.219 -0400] [32mINFO[39m: [36mrequest completed[39m [90m{"reqId":"req-d","res":{"statusCode":404},"responseTime":0.3642000000108965}[39m
+[2026-11-21 10:40:12.219 -0400] [32mINFO[39m: [36mincoming request[39m [90m{"reqId":"req-e","req":{"method":"GET","url":"/api/v1/servers"}}[39m
+[2026-11-21 10:40:12.219 -0400] [32mINFO[39m: [36mincoming request[39m [90m{"reqId":"req-f","req":{"method":"GET","url":"/api/v1/events"}}[39m
+[2026-11-21 10:40:12.222 -0400] [32mINFO[39m: [36mrequest completed[39m [90m{"reqId":"req-e","res":{"statusCode":200},"responseTime":2.659399999989546}[39m
+[2026-11-21 10:40:12.223 -0400] [32mINFO[39m: [36mrequest completed[39m [90m{"reqId":"req-c","res":{"statusCode":200},"responseTime":4.676900000005844}[39m
+[2026-11-21 10:40:12.225 -0400] [32mINFO[39m: [36mrequest completed[39m [90m{"reqId":"req-b","res":{"statusCode":200},"responseTime":7.611199999999371}[39m
+[2026-11-21 10:40:12.233 -0400] [32mINFO[39m: [36mrequest completed[39m [90m{"reqId":"req-f","res":{"statusCode":200},"responseTime":13.637999999991735}[39m
+[2026-11-21 10:40:14.887 -0400] [32mINFO[39m: [36mincoming request[39m [90m{"reqId":"req-g","req":{"method":"GET","url":"/cdn/equip_show/fashion_cloth_archangel/3_0.swf"}}[39m
+[2026-11-21 10:40:14.888 -0400] [32mINFO[39m: [36mincoming request[39m [90m{"reqId":"req-h","req":{"method":"GET","url":"/cdn/equip_show/fashion_cloth_archangel/3_1.swf"}}[39m
+[2026-11-21 10:40:14.922 -0400] [32mINFO[39m: [36mrequest completed[39m [90m{"reqId":"req-g","res":{"statusCode":200},"responseTime":34.80830000000424}[39m
+[2026-11-21 10:40:14.923 -0400] [32mINFO[39m: [36mrequest completed[39m [90m{"reqId":"req-h","res":{"statusCode":200},"responseTime":35.13900000001013}[39m
+[2026-11-21 10:40:15.385 -0400] [32mINFO[39m: [36mincoming request[39m [90m{"reqId":"req-i","req":{"method":"OPTIONS","url":"/api/v1/characters/selection"}}[39m
+[2026-11-21 10:40:15.386 -0400] [32mINFO[39m: [36mrequest completed[39m [90m{"reqId":"req-i","res":{"statusCode":204},"responseTime":0.5001999999949476}[39m
+[2026-11-21 10:40:15.386 -0400] [32mINFO[39m: [36mincoming request[39m [90m{"reqId":"req-j","req":{"method":"OPTIONS","url":"/api/v1/characters/selection"}}[39m
+[2026-11-21 10:40:15.386 -0400] [32mINFO[39m: [36mrequest completed[39m [90m{"reqId":"req-j","res":{"statusCode":204},"responseTime":0.18140000000130385}[39m
+[2026-11-21 10:40:15.392 -0400] [32mINFO[39m: [36mincoming request[39m [90m{"reqId":"req-k","req":{"method":"GET","url":"/api/v1/characters/selection"}}[39m
+[2026-11-21 10:40:15.393 -0400] [32mINFO[39m: [36mincoming request[39m [90m{"reqId":"req-l","req":{"method":"GET","url":"/api/v1/characters/selection"}}[39m
+[2026-11-21 10:40:15.443 -0400] [32mINFO[39m: [36mrequest completed[39m [90m{"reqId":"req-l","res":{"statusCode":200},"responseTime":49.627699999997276}[39m
+[2026-11-21 10:40:15.443 -0400] [32mINFO[39m: [36mrequest completed[39m [90m{"reqId":"req-k","res":{"statusCode":200},"responseTime":51.25130000000354}[39m
+[2026-11-21 10:40:15.449 -0400] [32mINFO[39m: [36mincoming request[39m [90m{"reqId":"req-m","req":{"method":"OPTIONS","url":"/api/v1/servers"}}[39m
+[2026-11-21 10:40:15.449 -0400] [32mINFO[39m: [36mrequest completed[39m [90m{"reqId":"req-m","res":{"statusCode":204},"responseTime":0.23170000000391155}[39m
+[2026-11-21 10:40:15.449 -0400] [32mINFO[39m: [36mincoming request[39m [90m{"reqId":"req-n","req":{"method":"OPTIONS","url":"/api/v1/play/launch"}}[39m
+[2026-11-21 10:40:15.449 -0400] [32mINFO[39m: [36mrequest completed[39m [90m{"reqId":"req-n","res":{"statusCode":204},"responseTime":0.1585999999952037}[39m
+[2026-11-21 10:40:15.477 -0400] [32mINFO[39m: [36mincoming request[39m [90m{"reqId":"req-o","req":{"method":"GET","url":"/api/v1/play/launch"}}[39m
+[2026-11-21 10:40:15.477 -0400] [32mINFO[39m: [36mincoming request[39m [90m{"reqId":"req-p","req":{"method":"GET","url":"/api/v1/servers"}}[39m
+[2026-11-21 10:40:15.508 -0400] [32mINFO[39m: [36mrequest completed[39m [90m{"reqId":"req-p","res":{"statusCode":200},"responseTime":30.455099999991944}[39m
+[2026-11-21 10:40:15.543 -0400] [32mINFO[39m: [36mrequest completed[39m [90m{"reqId":"req-o","res":{"statusCode":200},"responseTime":66.43609999999171}[39m
+[2026-11-21 10:40:16.085 -0400] [32mINFO[39m: [36mincoming request[39m [90m{"reqId":"req-q","req":{"method":"GET","url":"/cdn/Loading.swf"}}[39m
+[2026-11-21 10:40:16.102 -0400] [32mINFO[39m: [36mrequest completed[39m [90m{"reqId":"req-q","res":{"statusCode":200},"responseTime":17.605999999999767}[39m
+[2026-11-21 10:40:16.152 -0400] [32mINFO[39m: [36mincoming request[39m [90m{"reqId":"req-r","req":{"method":"GET","url":"/api/v1/play/config/1.xml"}}[39m
+[2026-11-21 10:40:16.166 -0400] [32mINFO[39m: [36mrequest completed[39m [90m{"reqId":"req-r","res":{"statusCode":200},"responseTime":14.6079000000027}[39m
+[2026-11-21 10:40:16.183 -0400] [32mINFO[39m: [36mincoming request[39m [90m{"reqId":"req-s","req":{"method":"GET","url":"/loginselectlist"}}[39m
+[2026-11-21 10:40:16.191 -0400] [32mINFO[39m: [36mrequest completed[39m [90m{"reqId":"req-s","res":{"statusCode":200},"responseTime":7.537700000000768}[39m
+[2026-11-21 10:40:16.252 -0400] [32mINFO[39m: [36mincoming request[39m [90m{"reqId":"req-t","req":{"method":"POST","url":"/login"}}[39m
+[2026-11-21 10:40:16.308 -0400] [32mINFO[39m: [36mlogin HTTP ok[39m [90m{"reqId":"req-t","character":"2195"}[39m
+[2026-11-21 10:40:16.308 -0400] [32mINFO[39m: [36mrequest completed[39m [90m{"reqId":"req-t","res":{"statusCode":200},"responseTime":56.30840000000899}[39m
+[2026-11-21 10:40:16.327 -0400] [32mINFO[39m: [36mincoming request[39m [90m{"reqId":"req-u","req":{"method":"GET","url":"/cdn/code_md5.dat"}}[39m
+[2026-11-21 10:40:16.329 -0400] [32mINFO[39m: [36mrequest completed[39m [90m{"reqId":"req-u","res":{"statusCode":200},"responseTime":2.218399999997928}[39m
+[2026-11-21 10:40:16.378 -0400] [32mINFO[39m: [36mincoming request[39m [90m{"reqId":"req-v","req":{"method":"GET","url":"/cdn/res_md5.dat"}}[39m
+[2026-11-21 10:40:16.386 -0400] [32mINFO[39m: [36mrequest completed[39m [90m{"reqId":"req-v","res":{"statusCode":200},"responseTime":7.662400000001071}[39m
+[2026-11-21 10:40:16.773 -0400] [32mINFO[39m: [36mincoming request[39m [90m{"reqId":"req-w","req":{"method":"POST","url":"/updateplayernovice"}}[39m
+[2026-11-21 10:40:16.779 -0400] [32mINFO[39m: [36mrequest completed[39m [90m{"reqId":"req-w","res":{"statusCode":200},"responseTime":5.666200000006938}[39m
+[2026-11-21 10:40:16.786 -0400] [32mINFO[39m: [36mincoming request[39m [90m{"reqId":"req-x","req":{"method":"GET","url":"/cdn/ui/zh_cn/swf/mainloading_c3370939.swf"}}[39m
+[2026-11-21 10:40:16.795 -0400] [32mINFO[39m: [36mrequest completed[39m [90m{"reqId":"req-x","res":{"statusCode":200},"responseTime":8.360999999989872}[39m
+[2026-11-21 10:40:16.858 -0400] [32mINFO[39m: [36mincoming request[39m [90m{"reqId":"req-y","req":{"method":"GET","url":"/cdn/background.jpg"}}[39m
+[2026-11-21 10:40:16.866 -0400] [32mINFO[39m: [36mrequest completed[39m [90m{"reqId":"req-y","res":{"statusCode":200},"responseTime":7.5944000000017695}[39m

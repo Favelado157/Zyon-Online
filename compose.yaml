@@ -1,0 +1,21 @@
+name: legend-online-ultra
+
+services:
+  db:
+    image: postgres:17-alpine
+    restart: unless-stopped
+    environment:
+      POSTGRES_USER: ${PG_USER:-lou}
+      POSTGRES_PASSWORD: ${PG_PASSWORD:-lou}
+      POSTGRES_DB: ${PG_DB:-lou}
+    ports:
+      - "127.0.0.1:${PG_PORT:-5440}:5432"
+    volumes:
+      - pgdata:/var/lib/postgresql/data
+    healthcheck:
+      test: ["CMD-SHELL", "pg_isready -U ${PG_USER:-lou} -d ${PG_DB:-lou}"]
+      interval: 5s
+      retries: 20
+
+volumes:
+  pgdata:
